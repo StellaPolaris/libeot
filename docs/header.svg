@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="240" viewBox="0 0 1200 240" role="img" aria-label="libeot: Embedded OpenType to TrueType">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1b1f3a"/>
+      <stop offset="1" stop-color="#2d1b3d"/>
+    </linearGradient>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" fill="none" stroke="#ffffff" stroke-opacity="0.05"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="240" fill="url(#bg)"/>
+  <rect width="1200" height="240" fill="url(#grid)"/>
+  <!-- glyph outline with on/off-curve control points -->
+  <g transform="translate(70 40)">
+    <line x1="0" y1="140" x2="180" y2="140" stroke="#8a90c0" stroke-opacity="0.4" stroke-dasharray="4 4"/>
+    <path d="M30 140 L80 10 L100 10 L150 140 M52 90 H128" fill="none" stroke="#f7c873" stroke-width="10" stroke-linejoin="round" stroke-linecap="round"/>
+    <g fill="#1b1f3a" stroke="#f7c873" stroke-width="2">
+      <circle cx="30" cy="140" r="5"/><circle cx="80" cy="10" r="5"/><circle cx="100" cy="10" r="5"/>
+      <circle cx="150" cy="140" r="5"/><rect x="47" y="85" width="10" height="10"/><rect x="123" y="85" width="10" height="10"/>
+    </g>
+  </g>
+  <text x="290" y="118" font-family="Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="64" font-weight="700" fill="#ffffff">libeot</text>
+  <text x="292" y="160" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="24" fill="#c9cdf0">Read Embedded OpenType (.eot) fonts in C</text>
+  <!-- .eot -> .ttf badge -->
+  <g font-family="Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="26" font-weight="700">
+    <rect x="830" y="92" width="110" height="50" rx="10" fill="none" stroke="#c9cdf0" stroke-width="2"/>
+    <text x="885" y="126" text-anchor="middle" fill="#c9cdf0">.eot</text>
+    <path d="M958 117 H1010 M996 105 L1010 117 L996 129" fill="none" stroke="#f7c873" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="1026" y="92" width="110" height="50" rx="10" fill="#f7c873"/>
+    <text x="1081" y="126" text-anchor="middle" fill="#1b1f3a">.ttf</text>
+  </g>
+</svg>
